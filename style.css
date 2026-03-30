@@ -332,7 +332,7 @@ background-color: rgb(255, 255, 255);
 
 
 .objetivo p{
-    color: red;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: clamp(2rem, 2vw, 3.5rem);
     line-height: .9; 
