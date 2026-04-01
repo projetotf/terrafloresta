@@ -346,4 +346,45 @@ background-color: rgb(255, 255, 255);
   display: block;
 }
 
+footer{
+background-color: black;
+color: white;
+  padding: 2em;
+  align-content: center;
+
+
+}
+
+
+
+footer ul{
+  margin: 0 auto;
+  width: min(90%, 900px);
+  padding-bottom: 4em;
+  
+}
+
+footer li{
+  border-bottom: 2px solid white;
+  margin: 1em 0;
+  background-color: rgba(39, 108, 43, 0.719);
+  padding: .5em;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+ 
+}
+
+footer li img{
+  max-height: 10em;
+  width: auto;
+  margin-bottom: 1em;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+
+
+footer section{
+    margin: 1em auto;
+  width: min(80%, 700px);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
 
