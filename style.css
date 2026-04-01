@@ -335,8 +335,6 @@ footer{
 background-color: black;
 color: white;
   padding: 2em;
-  align-content: center;
-
 
 }
 
@@ -344,7 +342,7 @@ color: white;
 
 footer ul{
   margin: 0 auto;
-  width: min(90%, 900px);
+  width: min(95%, 900px);
   padding-bottom: 4em;
   
 }
