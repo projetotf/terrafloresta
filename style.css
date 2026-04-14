@@ -414,7 +414,7 @@ header img{
 }
 
 .text-container p{
-    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-size: clamp(2rem, 3vw, 3rem);
     line-height: 1;
     font-weight: bold;
 }
