@@ -206,6 +206,13 @@ article{
 .titulo-section{
   background-color: black;
 
+
+}
+
+.titulo-section img{
+  object-fit: cover;
+margin: 0 auto;
+max-height: 90vh;
 }
 
 main img{
@@ -218,7 +225,7 @@ main img{
 
 }
 article p{
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(2rem, 2vw, 2rem);
   line-height: 1.2em;
 }
 
@@ -229,15 +236,17 @@ article h2{
 figcaption{
 padding: .5em 0;
 border-bottom: 2px solid black;
-
+color: rgb(20, 100, 28);
 line-height: .9em;
 font-size: clamp(1.3rem, 2vw, 3rem);
+
 }
 
 table{
   margin: 2em auto;
   border-collapse: collapse;
   font-size: clamp(1.5rem, 2vw, 4rem);
+  background-color: rgba(145, 255, 145, 0.457);
 }
 
 table tr{
@@ -268,11 +277,13 @@ caption{
   caption-side: bottom;
   text-align: left;
   padding-left: 1em;
+  line-height: .9em;
 }
 
 
 ul{
   list-style-type: none;
+  
 
 }
 
@@ -321,8 +332,9 @@ background-color: rgb(255, 255, 255);
 .objetivo p{
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: clamp(2rem, 2vw, 3.5rem);
+    font-size: clamp(2.5rem, 2.5vw, 3.5rem);
     line-height: .9; 
+    
   ;
 
 }
@@ -335,6 +347,8 @@ footer{
 background-color: black;
 color: white;
   padding: 2em;
+  align-content: center;
+
 
 }
 
@@ -342,7 +356,7 @@ color: white;
 
 footer ul{
   margin: 0 auto;
-  width: min(95%, 900px);
+  width: min(90%, 900px);
   padding-bottom: 4em;
   
 }
@@ -370,4 +384,45 @@ footer section{
   font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
+header img{
+  position: relative;
+  object-fit: cover;
+  height: 80vh;
+}
 
+.text-container{
+  position: absolute;
+  top: 50px;
+  left:40px;
+  color: white;
+  display: grid;
+  gap: 15em;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 1em;
+  margin-right: 20%;
+  height: 70%;
+  background-image: linear-gradient( to bottom, rgba(255, 235, 235, 0), rgb(0, 0, 0));
+
+  border-radius: .7em;
+
+}
+
+.text-container h1{
+    font-size: clamp(3rem, 3vw, 4rem);
+    line-height: 1;
+    font-family: 'Anton', sans-serif;
+}
+
+.text-container p{
+    font-size: clamp(2.5rem, 3vw, 4rem);
+    line-height: 1;
+    font-weight: bold;
+}
+
+  .obj{
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1;
+    border: 2px solid black;
+    padding: .5em;
+    margin-top: 2em;
+  }
