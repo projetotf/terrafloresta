@@ -153,17 +153,17 @@ summary{
   background-color: black;
   color: white;
   padding:  1em;
-  font-size: clamp(2.4rem, 4vw, 4rem);
+  font-size: clamp(2rem, 4vw, 4rem);
   line-height: 1;
 
 }
 
 article{
-  width: min(90%, 1000px);
+  width: min(95%, 1000px);
   margin-inline: auto;
 
   h4{
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(1.5rem, 5vw, 3rem);
     line-height: 1;
     margin: 1em 0;
   
