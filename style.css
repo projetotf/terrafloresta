@@ -1,0 +1,332 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+:root{
+    font-family: 'Playfair Display', sans-serif;
+}
+
+
+
+img{
+    max-inline-size: 100%;
+    width: 100%;
+;
+
+
+
+}
+
+body{
+  padding: 1em;
+}
+
+
+header{
+  height: 90svh;
+  border: 2px solid  black;
+  margin-bottom: .5em;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  border-radius: .7em;
+  text-wrap: balance;
+  h1{
+    font-size: clamp(5rem, 6vw, 7rem);
+    text-align: end;
+    font-family: 'Anton', sans-serif;
+
+  }
+  p{
+    font-size: clamp(2.7rem, 4vw, 3rem);
+    line-height: 1;
+    width: min(80%, 1000px);
+    font-weight: bold;
+  }
+}
+
+.objetivo{
+  font-size: clamp(2.5rem, 4vw, 4rem);
+
+  line-height: 1;
+  padding: 1em;
+  color: red;
+  border: 2px solid black;
+  border-radius: .4em;
+  margin-bottom: 2em;
+}
+
+.publicações-container {
+  h3{
+    font-size: clamp(5rem, 5vw, 7rem);
+    border-bottom: 2px solid black;
+    margin-bottom: 2em;
+
+  }
+
+}
+
+details{
+  border: 2px solid black;
+  background-color: #e6ede64f;
+    border-radius: .8em;
+    margin-bottom: 4em;
+}
+
+summary{
+  background-color: black;
+  color: white;
+  padding:  1em;
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 1;
+
+}
+
+article{
+  width: min(95%, 1200px);
+  margin-inline: auto;
+
+  h4{
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1;
+    margin: 1em 0;
+  
+  }
+  p{
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    line-height: 1;
+
+  }
+  h2{
+    font-size: clamp(3rem, 5vw, 4rem);
+    border-bottom: 2px solid black;
+    margin: 2em 0
+  }
+  img{
+    margin-top: 2em;
+    border: 2px solid black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+figcaption{
+padding: .5em 0;
+border-bottom: 2px solid black;
+color: rgb(20, 100, 28);
+line-height: .9em;
+font-size: clamp(2rem, 2vw, 3rem);
+
+}
+
+table{
+  margin: 2em auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-size: clamp(2rem, 2vw, 4rem);
+  background-color: rgba(91, 171, 217, 0.782);
+}
+
+table tr{
+  border-bottom: 2px solid;
+}
+
+th{
+  text-align: left;
+ 
+
+
+}
+
+thead th{
+  text-align: center;
+}
+
+td{
+  padding: 2em;
+}
+
+tbody th{
+  border-right: 2px solid;
+  padding: 0 1em
+}
+
+caption{
+  caption-side: bottom;
+  text-align: left;
+  padding-left: 1em;
+  line-height: .9em;
+}
+
+
+ul{
+  list-style-type: none;
+  display: grid;  
+  gap: 2em;
+
+}
+
+li{
+  border-bottom: 2px solid black;
+  font-size: clamp( 3rem, 3vw, 4rem);
+  line-height: 1;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.sugestoes{
+  padding: 4em 0;
+  a{
+    display: block;
+    margin-bottom: 1em;
+  }
+}
+
+.livros{
+
+color: rgb(0, 0, 0);
+
+}
+
+
+.livros ul{
+
+  width: 95%, 1200px;
+  padding-bottom: 4em;
+  display:grid;
+
+grid-template-columns: repeat(auto-fit, minmax(300px, 2fr))
+  
+}
+
+.livros li{
+
+  background-color: #d3d3f1;
+  padding: .5em;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1;
+  
+ 
+}
+
+.livros li img{
+  max-height: 10em;
+  width: auto;
+  margin-bottom: 1em;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+
+
+
+footer{
+  height: 90svh;
+  font-size: 6vw;
+  text-align: center;
+  font-family: 'Anton';
+  margin-top: 5em;
+  background-color: black;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+
+
