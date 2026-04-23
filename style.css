@@ -207,6 +207,7 @@ font-size: clamp(2rem, 2vw, 3rem);
 }
 
 table{
+  width: 100%;
   margin: 2em auto;
   border: 2px solid black;
   border-collapse: collapse;
