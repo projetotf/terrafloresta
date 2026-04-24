@@ -126,7 +126,7 @@ header{
   font-size: clamp(2rem, 4vw, 3rem);
 
   line-height: 1;
-  padding: 1em;
+  padding: .5em;
   border: 2px solid black;
   border-radius: .4em;
   margin-bottom: 2em;
