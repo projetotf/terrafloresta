@@ -221,7 +221,7 @@ table{
   border-collapse: collapse;
   font-size: clamp(1.5rem, 2vw, 4rem);
   background-color: rgba(91, 171, 217, 0.782);
-  width: min(95%, 1200px
+  width: min(95%, 1200px);
 }
 
 table tr{
