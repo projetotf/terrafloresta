@@ -140,8 +140,10 @@ main{
   margin-bottom: 2em;
 }
 
-span{
+.jaguar{
   color: black;
+  padding: .5em 0;
+  font-size: clamp(1.6rem, 4vw, 2rem);
 } 
 
 .publicações-container {
