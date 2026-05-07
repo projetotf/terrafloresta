@@ -134,18 +134,12 @@ main{
 
   line-height: 1;
   padding: .5em;
-  color: red;
+  color: black;
   border: 2px solid black;
   border-radius: .4em;
   margin-bottom: 2em;
 }
 
-.jaguar{
-  color: black;
-  margin: .8em 0;
-  display: block;
-  font-size: clamp(1.6rem, 4vw, 2rem);
-} 
 
 .publicações-container {
   h3{
