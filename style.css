@@ -351,6 +351,17 @@ grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
  }
 
+.galeria-container{
+    width: min(90%, 1200px);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
+    gap: .5em;
+    img{
+        border: 2px solid black;
+    }
+}
+
 
 
 footer{
